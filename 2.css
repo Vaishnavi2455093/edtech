@@ -1,0 +1,262 @@
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.sign-up {
+
+
+    background: linear-gradient(to right,#e85959f0,  #de266c, #fd3da6bd); /* Approximate gradient */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  
+    transition: box-shadow 0.2s ease-in-out;
+  
+}
+.sign-up:hover {
+  background-color: black; /* Keep the same background color */
+  box-shadow: 0px 5px 10px rgba(146, 5, 104, 0.635); /* Magenta shadow */
+}
+
+
+
+
+
+
+.custom-button {
+  background-color: #111111; /* Dark background */
+  color: #FFFFFF; /* White text */
+  border: 2px solid #e80481c3; /* Pink border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+
+.custom-button:hover {
+  background-color: black; /* Keep the same background color */
+  box-shadow: 0px 5px 10px rgba(237, 58, 121, 0.635); /* Magenta shadow */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #000000; /* Adjust background color */
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #13171c; /* Adjust background color */
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 70px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #444; /* Adjust hover color */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.dropdown-item img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.dropdown-text {
+  margin-left: 10px;
+}
+
+.dropdown-text h3 {
+  margin: 0;
+  font-size: 14px;
+  color: #fff; /* Adjust text color */
+}
+
+.dropdown-text p {
+  margin: 0;
+  font-size: 12px;
+  color: #ccc; /* Adjust text color */
+}
+.main{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+.main h1 {
+  position: relative;
+  font-size: 64px;
+  top: 80px;
+  left: 25px;
+ color:#e80481c3;
+ letter-spacing:-1.28px;
+ text-align: center;
+ font-family: Figtree,sans-serif;
+ line-height: 64px;
+ text-align: start;
+ top:2px;
+ left: 180px;
+
+}
+
+
+.main h1 span{
+  color: white;
+  font-family: Figtree,sans-serif;
+}
+.main p{
+  width: 650px;
+  text-align: start;
+  line-height: 24px;
+  position: relative;
+  top:1px;
+  left: 180px;
+  font:16px;
+  color: #999caa;
+
+}
+
+.main .main_btn{
+ 
+  background: linear-gradient(to right,#e85959f0,  #de266c, #fd3da6bd);
+    padding: 10px 20px;
+    position: relative;
+    top: 50px;
+    left: 180px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition:box-shadow 0.2s ease-in-out ;
+    font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+.main .main_btn:hover {
+  background-color: black; /* Keep the same background color */
+  box-shadow: 0px 5px 10px rgba(146, 5, 104, 0.635); /* Magenta shadow */
+}
+
+.main .main_btn2{
+ 
+  background-color: black; /* Dark background */
+    padding: 10px 20px;
+    position: relative;
+    top: 50px;
+    left: 215px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition:box-shadow 0.2s ease-in-out ;
+    font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+}
+.main .main_img img{
+  width: 706px;
+  position: relative;
+  top: 100px;
+  left: 1px;
+}
+
