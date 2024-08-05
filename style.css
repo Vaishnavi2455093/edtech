@@ -1,40 +1,10 @@
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter' , sans-serif;
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-} */
 
 body {
   background-color: black;
@@ -43,23 +13,21 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
 
-nav ul {
+.navbar ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-nav li {
+.navbar li {
   margin-right: 20px;
 }
 
-nav a {
+.navbar a {
   color: white;
   text-decoration: none;
 }
@@ -120,7 +88,6 @@ nav a {
 .dropbtn {
   background-color: #000000; /* Adjust background color */
   color: white;
-  padding: 20px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -129,7 +96,7 @@ nav a {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: fixed;
   background-color: #13171c; /* Adjust background color */
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -189,7 +156,6 @@ nav a {
   font-size: 64px;
   top: 80px;
   left: 25px;
- color:#e80481c3;
  letter-spacing:-1.28px;
  text-align: center;
  font-family: Figtree,sans-serif;
@@ -202,7 +168,7 @@ nav a {
 
 
 .main h1 span{
-  color: white;
+
   font-family: Figtree,sans-serif;
 }
 .main p{
@@ -260,3 +226,9 @@ nav a {
   left: 1px;
 }
 
+.gradient_text span{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#e89059f0,  #de266c, #fd3da6bd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
